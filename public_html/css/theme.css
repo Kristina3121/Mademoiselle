@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url(fonts/Bodoni);
+@import url(fonts/Bodoni-italic);
 html {
   font-size: 10px;
 }
@@ -9598,6 +9600,78 @@ main {
     line-height: 84px;
     font-weight: 300;
     letter-spacing: 20px;
+  }
+}
+
+header .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  background-color: #1E1E1E;
+}
+
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+
+header .navbar-brand {
+  height: 25px;
+  width: 196px;
+  margin-bottom: 20px;
+}
+
+header .navbar-nav a {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+}
+
+header .navbar-nav a:hover {
+  border-bottom: 1px solid #ECD9D9;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav li {
+    margin-left: 42px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .navbar-nav li {
+    margin-left: 72px;
+  }
+}
+
+.lead-section {
+  padding: 50px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 74px;
+}
+
+.lead-section .lead-section-title {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Bodoni";
+}
+
+@media (min-width: 992px) {
+  .lead-section {
+    padding: 200px 0;
+  }
+  .lead-section-title {
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 3rem;
+    line-height: 8.4rem;
+    font-weight: 300;
+    font-size: 6rem;
   }
 }
 
