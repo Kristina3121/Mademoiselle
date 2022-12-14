@@ -1,0 +1,37 @@
+$base-font: $lato;
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: $base-font;
+    font-weight: $font-weight-light;
+}
+
+main{
+    padding-top: 54.5px;
+}
+
+
+@media(min-width:576px){
+    main{
+        padding-top: 57px;
+    }
+}
+
+@media(min-width:992px){
+    main{
+        padding-top: 77px;
+    }
+}
+
+@media(min-width:992px){
+    .lead-section-title{
+        font-size: 60px;
+        line-height: 84px;
+        font-weight: 300;
+        letter-spacing: 20px;
+    }
+}
+
