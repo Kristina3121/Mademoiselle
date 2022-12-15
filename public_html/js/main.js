@@ -24,7 +24,11 @@ $(document).ready(function(){
     });
     animation();
 
+    //professional slider
     
+    if($('.professional-slider').length > 0){
+         $(".professional-slider").owlCarousel();
+    }
     
     
     

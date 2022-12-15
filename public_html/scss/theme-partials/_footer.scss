@@ -1,0 +1,33 @@
+
+$social-text: #ECD9D9;
+$footer-text: #1E1E1E;
+footer{
+    margin-top: 116px;
+
+    .social{
+        margin-bottom: 1.9rem;
+        a{
+            color: $social-text;
+            font-size: 2.5rem;
+            transition: 1s linear;
+            margin: 0 5px;
+
+            &:hover{
+                transform: skewY(250deg);
+            }
+        }
+    }
+
+    .copy-right{
+        color: $footer-text;
+        font-family: $lato;
+        font-size: 1.2rem;
+        letter-spacing: -0.011rem;
+        line-height: 4.1rem;
+        text-align: center;
+        a{
+            color: $footer-text;
+        }
+    }
+}
+
