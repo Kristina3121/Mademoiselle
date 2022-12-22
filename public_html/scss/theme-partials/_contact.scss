@@ -1,0 +1,61 @@
+
+
+.contact-section{
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    
+    h2{
+        font-family: $bodoni;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        line-height: 45px;
+    }
+
+    .form-control{
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: -0.23px;
+        line-height: 25px;
+        resize: none;
+    }
+    .btn{
+        border: 1px solid #1E1E1E;
+        height: 45px;
+        width: 172px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 17px;
+        margin-top: 23px;
+    }
+
+}
+
+.info-section{
+    background-color: $rose;
+ padding: 63px 0 60px;
+   
+    
+
+    p, a{
+        line-height: 2.5rem;
+        font-size: 24px;
+        font-weight: $font-weight-light;
+        letter-spacing: 0;
+        font-family: $lato;
+        color: $primary;
+    }
+}
+
+@media(min-width:768px){
+    .contact-section{
+        padding: 102px ;
+    }
+}
+
+
+@media(min-width:1200px){
+     .contact-section{
+        padding: 102px ;
+    }
+}

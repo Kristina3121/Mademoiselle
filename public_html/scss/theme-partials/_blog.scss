@@ -1,0 +1,89 @@
+
+.blog-section{
+    .blog{
+        padding-top:  119px;
+    }
+}
+
+.pagination{
+    padding: 100px;
+    text-align: center;
+    display: block;
+
+    a {
+        color: $primary;
+        font-family: $bodoni;
+        font-size: 1.6rem;
+        font-weight: $font-weight-medium;
+        letter-spacing: 1rem;
+        line-height: 2.4rem;
+        text-decoration: none;
+    }
+}
+
+.single-blog{
+   padding: 10px;
+
+    .category{
+        font-family: $bodoni;
+        font-size: 1.4rem;
+        font-weight: $font-weight-medium;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+    }
+    .date-published{
+        font-family: $bodoni-italic;
+        font-size: 1.4rem;
+        font-weight: $font-weight-light;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+    }
+
+    .single-blog-title{
+        font-family: $lato;
+        font-size: 4.4rem;
+        letter-spacing: 0;
+        line-height: 5rem;
+    }
+    .single-blog-description{
+        font-family: $lato;
+        font-size: 2rem;
+        font-weight: $font-weight-light;
+        letter-spacing: 0;
+        line-height: 2.8rem;
+    }
+}
+
+.blog-single-section{
+    p{
+        margin-bottom: 3rem;
+        font-family: $lato;
+        font-size: 1.8rem;
+        font-weight: $font-weight-light;
+        letter-spacing: 0;
+        line-height: 2.6rem;
+        text-align: justify;
+    }
+}
+
+.news-tags{
+
+    padding-top: 41px;
+    padding-bottom: 150px;
+    a{
+        text-transform: lowercase;
+        font-family: $bodoni;
+        font-weight: $font-weight-medium;
+    }
+
+    .tag-title{
+        font-weight: $font-weight-medium;
+        font-family: $bodoni-italic;
+    }
+}
+
+@media(min-width:1200px){
+    .single-blog{
+         padding: 165px;
+    }
+}

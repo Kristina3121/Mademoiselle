@@ -9596,11 +9596,17 @@ main {
 
 @media (min-width: 992px) {
   .lead-section-title {
-    font-size: 60px;
-    line-height: 84px;
+    text-align: center;
+    letter-spacing: 3rem;
+    line-height: 8.4rem;
     font-weight: 300;
-    letter-spacing: 20px;
+    font-size: 6rem;
   }
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 8.4rem;
 }
 
 header .navbar-toggler span {
@@ -9657,31 +9663,30 @@ header .navbar-nav a:hover {
 
 .lead-section .lead-section-title {
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   font-family: "Bodoni";
 }
 
-@media (min-width: 992px) {
+.error-section .btn {
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 0.031rem;
+  line-height: 1.7rem;
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
   .lead-section {
     padding: 200px 0;
-  }
-  .lead-section-title {
-    text-align: center;
-    color: #FFFFFF;
-    letter-spacing: 3rem;
-    line-height: 8.4rem;
-    font-weight: 300;
-    font-size: 6rem;
   }
 }
 
 .trends .trends-caption {
-  background-color: #FFFFFF;
-  padding: 0;
+  background-color: #fff;
 }
 
 .trends .trends-caption .date {
-  color: #1E1E1E;
   font-family: "Bodoni-italic";
   font-size: 1.4rem;
   font-weight: 300;
@@ -9691,25 +9696,24 @@ header .navbar-nav a:hover {
 }
 
 .trends .trends-caption .date-content-title {
-  color: #1E1E1E;
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   letter-spacing: 0.2rem;
+  text-transform: uppercase;
   height: 4.8rem;
   overflow: hidden;
 }
 
 .trends .trends-caption .date-content {
-  color: #1E1E1E;
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0;
   line-height: 2.4rem;
+  text-transform: uppercase;
 }
 
 .trends-title {
-  color: #1E1E1E;
   font-family: "Bodoni";
   font-size: 3rem;
   font-weight: 300;
@@ -9733,7 +9737,7 @@ header .navbar-nav a:hover {
   margin-right: auto;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .trends-caption {
     height: 161px;
     width: 313px;
@@ -9795,17 +9799,31 @@ header .navbar-nav a:hover {
   margin-top: 36px;
 }
 
+.services .info {
+  background-color: #ECD9D9;
+}
+
 @media (min-width: 992px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .services-description {
-    height: 370px;
-    padding: 50px 50px;
+    flex-basis: 100%;
+    height: 100%;
+    padding: 50px;
   }
 }
 
 @media (min-width: 1200px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .services-description {
-    height: 451px;
-    padding: 143px 95px 176px;
+    flex-basis: 100%;
+    height: 100%;
+    padding: 95px;
   }
 }
 
@@ -9836,27 +9854,31 @@ header .navbar-nav a:hover {
 
 .description .professional-title-content {
   font-family: "Lato", sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   letter-spacing: 0;
-  line-height: 27px;
+  line-height: 2.7rem;
   margin-top: 50px;
 }
 
 .description .professional-content {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: 0;
-  line-height: 23px;
+  line-height: 2.3rem;
   margin-top: 35px;
+}
+
+.professional-slider .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ECD9D9;
 }
 
 @media (min-width: 992px) {
   .professional .row {
-    height: 451px;
-    width: 1128px;
     border: 1px solid #ECD9D9;
-    box-sizing: border-box;
     padding: 54px;
   }
   .professional .description .professional-title-content {
@@ -9915,7 +9937,7 @@ footer .copy-right a {
 }
 
 .about .about-caption {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .about .about-caption .date {
@@ -9954,6 +9976,169 @@ footer .copy-right a {
     position: absolute;
     margin-left: 29px;
     margin-right: 25px;
+  }
+}
+
+.blog-section .blog {
+  padding-top: 119px;
+}
+
+.pagination {
+  padding: 100px;
+  text-align: center;
+  display: block;
+}
+
+.pagination a {
+  color: #1E1E1E;
+  font-family: "Bodoni";
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+
+.single-blog {
+  padding: 10px;
+}
+
+.single-blog .category {
+  font-family: "Bodoni";
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+}
+
+.single-blog .date-published {
+  font-family: "Bodoni-italic";
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+}
+
+.single-blog .single-blog-title {
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem;
+  letter-spacing: 0;
+  line-height: 5rem;
+}
+
+.single-blog .single-blog-description {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.8rem;
+}
+
+.blog-single-section p {
+  margin-bottom: 3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.6rem;
+  text-align: justify;
+}
+
+.news-tags {
+  padding-top: 41px;
+  padding-bottom: 150px;
+}
+
+.news-tags a {
+  text-transform: lowercase;
+  font-family: "Bodoni";
+  font-weight: 500;
+}
+
+.news-tags .tag-title {
+  font-weight: 500;
+  font-family: "Bodoni-italic";
+}
+
+@media (min-width: 1200px) {
+  .single-blog {
+    padding: 165px;
+  }
+}
+
+.single-service {
+  padding: 50px;
+}
+
+.single-service .single-service-title {
+  margin-bottom: 25px;
+  font-size: 4.4rem;
+}
+
+.trends-single-service {
+  padding-bottom: 135px;
+}
+
+@media (min-width: 1200px) {
+  .single-service {
+    padding: 170px 0;
+  }
+}
+
+.contact-section {
+  -webkit-overflow-scrolling: none;
+  overflow: hidden;
+}
+
+.contact-section h2 {
+  font-family: "Bodoni";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
+
+.contact-section .form-control {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.23px;
+  line-height: 25px;
+  resize: none;
+}
+
+.contact-section .btn {
+  border: 1px solid #1E1E1E;
+  height: 45px;
+  width: 172px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+  margin-top: 23px;
+}
+
+.info-section {
+  background-color: #ECD9D9;
+  padding: 63px 0 60px;
+}
+
+.info-section p, .info-section a {
+  line-height: 2.5rem;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  font-family: "Lato", sans-serif;
+  color: #1E1E1E;
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    padding: 102px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-section {
+    padding: 102px;
   }
 }
 

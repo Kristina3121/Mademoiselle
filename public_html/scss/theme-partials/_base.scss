@@ -28,10 +28,15 @@ main{
 
 @media(min-width:992px){
     .lead-section-title{
-        font-size: 60px;
-        line-height: 84px;
-        font-weight: 300;
-        letter-spacing: 20px;
+        text-align: center;
+        letter-spacing: 3rem;
+        line-height: 8.4rem;
+        font-weight: $headings-font-weight;
+        font-size: 6rem;
     }
 }
 
+h1{
+    font-size: 6rem;
+    line-height: 8.4rem;
+}

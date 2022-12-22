@@ -1,9 +1,9 @@
 
 .professional-title{
-    color: #1E1E1E;
+    color: $primary;
     font-family: $bodoni;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     letter-spacing: 0.5rem;
     line-height: 4.5rem;
 }
@@ -11,7 +11,7 @@
     content: '';
     height: 1px;
     width: 74px;
-    background-color: #ECD9D9;
+    background-color: $rose;
     display: block;
     position: relative;
     margin-top: 43px;
@@ -27,30 +27,47 @@
 .description{
     .professional-title-content{
         font-family: $lato;
-        font-size: 30px;
+        font-size: 3rem;
         letter-spacing: 0;
-        line-height: 27px;
+        line-height: 2.7rem;
         margin-top: 50px;
     }
     .professional-content{
         font-family: $lato;
-        font-size: 16px;
-        font-weight: 300;
+        font-size: 1.6rem;
+        font-weight: $font-weight-light;
         letter-spacing: 0;
-        line-height: 23px;
+        line-height: 2.3rem;
         margin-top: 35px;
 
     }
 }
 
+.professional-slider{
+
+    .owl-dots{
+
+        .owl-dot{        
+        
+            span{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: $rose;
+            }
+
+        }
+    }
+
+}
+
+
 @media(min-width:992px){
     .professional{
         .row{
-            height: 451px;
-            width: 1128px;
-            border: 1px solid #ECD9D9;
-            box-sizing: border-box;
+            border: 1px solid $rose;
             padding: 54px;
+
 
         }
         .description{

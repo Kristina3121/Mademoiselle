@@ -7,23 +7,26 @@
 
     .lead-section-title{
         text-align: center;
-        color: #FFFFFF;
+        color: $white;
         font-family: $bodoni;
+    }
+
+}
+
+.error-section{
+    .btn{
+        border: 1px solid #FFFFFF;
+        color: $white;
+        font-size: 1.4rem;
+        letter-spacing: 0.031rem;
+        line-height: 1.7rem;
+        margin: auto;
     }
 }
 
-@media(min-width:992px){
+@media(min-width:1200px){
     .lead-section{
         padding: 200px 0;
-    }
-
-    .lead-section-title{
-        text-align: center;
-        color: #FFFFFF;
-        letter-spacing: 3rem;
-        line-height: 8.4rem;
-        font-weight: $headings-font-weight;
-        font-size: 6rem;
     }
 }
 

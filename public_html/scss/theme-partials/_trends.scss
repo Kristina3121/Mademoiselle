@@ -1,43 +1,40 @@
 
 .trends{
-    
+
     .trends-caption{
-        background-color: #FFFFFF;
-        padding: 0;
+        background-color: $white;
+
 
         .date{
-            color: #1E1E1E;
             font-family: $bodoni-italic;
             font-size: 1.4rem;
-            font-weight: 300;
+            font-weight: $font-weight-light;
             letter-spacing: 0.1rem;
             line-height: 1.7rem;
             margin-top: 22px;
         }
         .date-content-title{
-            color: #1E1E1E;
             font-family: $lato;
             font-size: 1.6rem;
             line-height: 2.4rem;
             letter-spacing: 0.2rem;
+            text-transform: uppercase;
             height: 2*2.4rem;
             overflow: hidden;
         }
         .date-content{
-            color: #1E1E1E;
             font-family: $lato;
             font-size: 1.6rem;
-            letter-spacing: 0.3rem;
+            letter-spacing: 0;
             line-height: 2.4rem;
-
+            text-transform: uppercase;
         }
     }
 }
 .trends-title{
-    color: #1E1E1E;
     font-family: $bodoni;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     letter-spacing: 0.5rem;
     line-height: 4.5rem;
 }
@@ -45,7 +42,7 @@
     content: '';
     height: 1px;
     width: 74px;
-    background-color: #ECD9D9;
+    background-color: $rose;
     display: block;
     position: relative;
     margin-top: 43px;
@@ -58,7 +55,7 @@
     }
 }
 
-@media(min-width:992px){
+@media(min-width:1200px){
     .trends-caption{
         height: 161px;
         width: 313px;
@@ -66,5 +63,6 @@
         position: absolute;
         margin-left: 29px;
         margin-right: 25px;
+
     }
 }
