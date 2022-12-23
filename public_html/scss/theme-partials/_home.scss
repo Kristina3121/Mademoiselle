@@ -23,6 +23,16 @@
         margin: auto;
     }
 }
+@media(min-width:768px){
+    .lead-section{
+        padding: 150px 0;
+    }
+}
+@media(min-width:992px){
+    .lead-section{
+        padding: 200px 0;
+    }
+}
 
 @media(min-width:1200px){
     .lead-section{

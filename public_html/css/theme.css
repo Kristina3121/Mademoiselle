@@ -9676,6 +9676,18 @@ header .navbar-nav a:hover {
   margin: auto;
 }
 
+@media (min-width: 768px) {
+  .lead-section {
+    padding: 150px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .lead-section {
+    padding: 200px 0;
+  }
+}
+
 @media (min-width: 1200px) {
   .lead-section {
     padding: 200px 0;
@@ -9684,6 +9696,7 @@ header .navbar-nav a:hover {
 
 .trends .trends-caption {
   background-color: #fff;
+  margin-bottom: 56px;
 }
 
 .trends .trends-caption .date {
@@ -9692,7 +9705,7 @@ header .navbar-nav a:hover {
   font-weight: 300;
   letter-spacing: 0.1rem;
   line-height: 1.7rem;
-  margin-top: 22px;
+  padding-top: 22px;
 }
 
 .trends .trends-caption .date-content-title {
@@ -9711,6 +9724,7 @@ header .navbar-nav a:hover {
   letter-spacing: 0;
   line-height: 2.4rem;
   text-transform: uppercase;
+  padding-bottom: 57px;
 }
 
 .trends-title {
@@ -9742,7 +9756,7 @@ header .navbar-nav a:hover {
     height: 161px;
     width: 313px;
     margin-top: -80px;
-    position: absolute;
+    position: relative;
     margin-left: 29px;
     margin-right: 25px;
   }
@@ -9753,7 +9767,6 @@ header .navbar-nav a:hover {
 }
 
 .services .services-title {
-  margin-top: 137px;
   color: #1E1E1E;
   font-family: "Bodoni";
   font-size: 3rem;

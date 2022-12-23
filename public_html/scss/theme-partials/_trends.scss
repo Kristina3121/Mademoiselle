@@ -3,7 +3,7 @@
 
     .trends-caption{
         background-color: $white;
-
+        margin-bottom: 56px;
 
         .date{
             font-family: $bodoni-italic;
@@ -11,7 +11,7 @@
             font-weight: $font-weight-light;
             letter-spacing: 0.1rem;
             line-height: 1.7rem;
-            margin-top: 22px;
+            padding-top: 22px;
         }
         .date-content-title{
             font-family: $lato;
@@ -28,6 +28,7 @@
             letter-spacing: 0;
             line-height: 2.4rem;
             text-transform: uppercase;
+            padding-bottom: 57px;
         }
     }
 }
@@ -60,7 +61,7 @@
         height: 161px;
         width: 313px;
         margin-top:  -80px;
-        position: absolute;
+        position: relative;
         margin-left: 29px;
         margin-right: 25px;
 
